@@ -1,0 +1,39 @@
+body {
+  background-color: #f8f9fa;
+}
+.container {
+  margin-top: 50px;
+}
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+.list-group-item {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+}
+.list-group-item .remove-to-do {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #dc3545;
+  cursor: pointer;
+}
+.list-group-item .check-box {
+  margin-right: 10px;
+}
+.list-group-item h2 {
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+.checked {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+.date-finished {
+  color: #6c757d;
+  font-size: 0.8em;
+}
